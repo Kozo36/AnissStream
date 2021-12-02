@@ -1,1421 +1,1149 @@
 <!DOCTYPE html>
-<html lang="French">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <!-- glide -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css"
-    />
-    <!-- my css -->
-    <link rel="stylesheet" href="./style.css" />
-    <title>AnissStream | Streaming Film's Platform</title>
-   <head> 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4461725306977081"
-     crossorigin="anonymous"></script>
-     </head>
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-<figure class="bich5"><h1></h1></figure>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
-    <link rel="stylesheet" href="style.css">
-
+    <title>
+        AnissStream
+    </title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="app.css">
 </head>
 
+<body>
 
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <!-- NAV -->
+    <div class="nav-wrapper">
         <div class="container">
-          <a class="navbar-brand" href="#"
-            ><img
-              class="img"
-              src="./assets/images/yona.jpg"
-              alt="img"
-              draggable="false"
-          /></a>
-          <div id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <div class="dropdown">
-                  <a
-                    class="btn btn-outline-secondary"
-                    href="#"
-                    role="button"
-                    id="changeLanguage"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    EN
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="changeLanguage">
+            <div class="nav">
+                <a href="#" class="logo">
+                    <i class='bx bx-movie-play bx-tada main-color'></i>A<span class="main-color">n</span>iss Stream
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Genre</a></li>
+                    <li><a href="#">Films</a></li>
+                    <li><a href="#">Series</a></li>
+                    <li><a href="#">About</a></li>
                     <li>
-                      <a class="dropdown-item" href="#">English</a>
+                        <a href="#" class="btn btn-hover">
+                            <span>s'identifier</span>
+                        </a>
                     </li>
-                    <li><a class="dropdown-item" href="#">French</a></li>
-                  </ul>
+                </ul>
+                <!-- MOBILE MENU TOGGLE -->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
                 </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Se Connecter</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">S'inscrire</a>
-              </li>
-            </ul>
-          </div>
-          <div class="menu-toggle">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+            </div>
         </div>
-      </nav>
-    </header>
-    <main>
-      <section id="banner">
-        <div class="container glide">
-          <div class="glide__track" data-glide-el="track">
-            <ul class="glide__slides">
-              <li class="glide__slide">
-                <div class="row slides">
-                  <img
-                    class="banner_img"
-                    src="./assets/images/yona.jpg"
-                    alt="The Falcon and The Winter Soldier"
-                    draggable="false"
-                  />
-                  <div class="contents">
-                    <h1>
-                      The Falcon and The Winter Soldier <span>(2021)</span>
-                    </h1>
-                    <p class="genre">
-                      Sci-Fi & Fantasy, Action & Adventure, Drama, War &
-                      Politics
-                    </p>
-                    <p>
-                      Six mois après la fin des évènements liés à ThanosN 2,1, 
-                      Bucky Barnes fait équipe avec Sam Wilson. 
-                      Les deux hommes vont se lancer dans une aventure planétaire et vont devoir 
-                      faire face aux Flag-Smashers.
-                    </p>
-                    <a
-                      class="play_trailer"
-                      href="#"
-                      data-bs-toggle="modal"
-                      data-bs-target="#trailerModal1"
-                      ><img
-                        class="trailer_btn"
-                        src="./assets/icons/trailer btn.svg"
-                        alt="trailer"
-                        draggable="false"
-                    /></a>
-                  </div>
-                </div>
-              </li>
-              <li class="glide__slide">
-                <div class="row slides">
-                  <img
-                    class="banner_img"
-                    src="./assets/images/main banner 1.png"
-                    alt="Voyagers"
-                    draggable="false"
-                  />
-                  <div class="contents">
-                    <h1>Voyagers <span>(2021)</span></h1>
-                    <p class="genre">Science Fiction, Romance, Thriller</p>
-                    <p>
-                      With the future of the human race at stake, a group of
-                      young men and women -- bred for intelligence and obedience
-                      -- embark on an expedition to colonize a distant planet.
-                      When they uncover disturbing secrets about the mission,
-                      they defy their training and begin to explore their most
-                      primitive natures.
-                    </p>
-                    <a
-                      class="play_trailer"
-                      href="#"
-                      data-bs-toggle="modal"
-                      data-bs-target="#trailerModal2"
-                      ><img
-                        class="trailer_btn"
-                        src="./assets/icons/trailer btn.svg"
-                        alt="trailer"
-                        draggable="false"
-                    /></a>
-                  </div>
-                </div>
-              </li>
-              <li class="glide__slide">
-                <div class="row slides">
-                  <img
-                    class="banner_img"
-                    src="./assets/images/main banner 2.png"
-                    alt="Godzilla vs. Kong"
-                    draggable="false"
-                  />
-                  <div class="contents">
-                    <h1>Godzilla vs. Kong <span>(2021)</span></h1>
-                    <p class="genre">Science Fiction, Action, Drama</p>
-                    <p>
-                      In a time when monsters walk the Earth, humanity’s fight
-                      for its future sets Godzilla and Kong on a collision
-                      course that will see the two most powerful forces of
-                      nature on the planet collide in a spectacular battle for
-                      the ages.
-                    </p>
-                    <a
-                      class="play_trailer"
-                      href="#"
-                      data-bs-toggle="modal"
-                      data-bs-target="#trailerModal3"
-                      ><img
-                        class="trailer_btn"
-                        src="./assets/icons/trailer btn.svg"
-                        alt="trailer"
-                        draggable="false"
-                    /></a>
-                  </div>
-                </div>
-              </li>
-              <li class="glide__slide">
-                <div class="row slides">
-                  <img
-                    class="banner_img"
-                    src="./assets/img2/yona.png"
-                    alt="Tom Clancy's Without Remorse"
-                    draggable="false"
-                  />
-                  <div class="contents">
-                    <h1>Tom Clancy's Without Remorse <span>(2021)</span></h1>
-                    <p class="genre">Action, Adventure, Thriller, War</p>
-                    <p>
-                      An elite Navy SEAL uncovers an international conspiracy
-                      while seeking justice for the murder of his pregnant wife.
-                    </p>
-                    <a
-                      class="play_trailer"
-                      href="#"
-                      data-bs-toggle="modal"
-                      data-bs-target="#trailerModal4"
-                      ><img
-                        class="trailer_btn"
-                        src="./assets/icons/trailer btn.svg"
-                        alt="trailer"
-                        draggable="false"
-                    /></a>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <!-- Modal -->
-          <div
-            class="modal fade"
-            data-modal-color="background"
-            id="trailerModal1"
-            tabindex="-1"
-            aria-labelledby="trailerModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-lg modal-trailer">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Play Trailer</h5>
-                </div>
-                <div class="modal-body">
-                  <iframe
-                    class="modal-src"
-                    src="https://www.youtube.com/embed/IWBsDaFWyTE"
-                    frameborder="0"
-                    allowfullscreen
-                  >
-                  </iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="modal fade"
-            data-modal-color="background"
-            id="trailerModal2"
-            tabindex="-1"
-            aria-labelledby="trailerModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-lg modal-trailer">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Play Trailer</h5>
-                </div>
-                <div class="modal-body">
-                  <iframe
-                    class="modal-src"
-                    src="https://www.youtube.com/embed/EwJkexUBSeg"
-                    frameborder="0"
-                    allowfullscreen
-                  >
-                  </iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="modal fade"
-            data-modal-color="background"
-            id="trailerModal3"
-            tabindex="-1"
-            aria-labelledby="trailerModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-lg modal-trailer">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Play Trailer</h5>
-                </div>
-                <div class="modal-body">
-                  <iframe
-                    class="modal-src"
-                    src="https://www.youtube.com/embed/Q7kcGW-rNuA"
-                    frameborder="0"
-                    allowfullscreen
-                  >
-                  </iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="modal fade"
-            data-modal-color="background"
-            id="trailerModal4"
-            tabindex="-1"
-            aria-labelledby="trailerModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-lg modal-trailer">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Play Trailer</h5>
-                </div>
-                <div class="modal-body">
-                  <iframe
-                    class="modal-src"
-                    src="https://www.youtube.com/embed/JiftfwPCHRY"
-                    frameborder="0"
-                    allowfullscreen
-                  >
-                  </iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Modal -->
-        </div>
-      </section>
+    </div>
+    <!-- END NAV -->
 
-      <section id="search">
+    <!-- HERO SECTION -->
+    <div class="hero-section">
+        <!-- HERO SLIDE -->
+        <div class="hero-slide">
+            <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/Venom-2.png" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Venom : Let There Be Carnage
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>4.1</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>1h38 mins</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>16+</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Après avoir choisi le journaliste d'enquête Eddie Brock comme hôte, le symbiote extraterrestre Venom doit affronter un nouvel ennemi du nom de Carnage, qui se trouve à être l'alter ego du tueur en série Cletus Kasady.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="https://uqload.com/embed-3hx65jao9d0g.html" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    
+                                <span>Watch now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/supergirl-banner.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Mourir peut attendre
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>3,7</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span> 2h43 mins</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>16+</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                James Bond n'est plus en service et profite d'une vie tranquille en Jamaïque. Mais son répit est de courte durée car l'agent de la CIA Felix Leiter fait son retour pour lui demander son aide. Sa mission, qui est de secourir un scientifique kidnappé, va se révéler plus traître que prévu, et mener 007
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="https://uqload.com/embed-ix1a1z6ew6vo.html" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Watch now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="./images/wanda-banner.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Red Notice
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>3.9</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span> 1h55 mins</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>16+</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                               Lorsqu'Interpol déclenche une Alerte Rouge, destinée à traquer et à capturer les criminels les plus recherchés au monde, le FBI fait appel à son meilleur profiler, John Hartley.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="https://uqload.com/embed-bucskwcmi3d1.html" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Watch now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+            </div>
+        </div>
+        <!-- END HERO SLIDE -->
+        <!-- TOP MOVIES SLIDE -->
+        <div class="top-movies-slide">
+            <div class="owl-carousel" id="top-movies-slide">
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                   <div class="col-6"><a href="https://uqload.com/embed-4b8dtbsw615y.html"><img src="images/hallo.jpg"></a></div>
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Halloween Kills
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                
+                                <i class="bx bxs-star"></i>
+                                <span>2.7</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h46</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <div class="col-6"><a href="https://uqload.com/embed-5z9crpm2hud6.html"><img src="images/eternel.jpg"></a></div>
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Les Eternels
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>3.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2h37</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <div class="col-6"><a href="https://uqload.com/embed-mmniab22axle.html"><img src="images/raider.jpg"></a></div>
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Kaamelott: Premier Volet
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>3.6</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2h</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <div class="col-6"><a href="https://uqload.com/embed-2sfoisfe24ts.html"><img src="images/clifford.jpg"></a></div>
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                           Clifford The Big Red Dog
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>4.2</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h37</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <div class="col-6"><a href="https://uqload.com/embed-kq8cnti8cf93.html"><img src="images/deep.jpg"></a></div>
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Deep House
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>2.2</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h21</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <div class="col-6"><a href="https://uqload.com/embed-t0komejj22a7.html"><img src="images/chad.jpg"></a></div>
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Survive The Game
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>2.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+        <!-- END TOP MOVIES SLIDE -->
+    </div>
+    <!-- END HERO SECTION -->
+
+    <!-- LATEST MOVIES SECTION -->
+    <div class="section">
         <div class="container">
-          <div class="row">
-            <div class="col-md-6 search">
-              <input
-                type="text"
-                class="form-control search_input"
-                placeholder="Search"
-              />
-              <img
-                class="search_icon"
-                src="./assets/icons/search.svg"
-                alt="search"
-              />
+            <div class="section-header">
+                Popul movies
             </div>
-            <div class="col-md-6 link">
-              <div class="link_section">
-                <a href="./#trending">Récents</a>
-                <a href="./#populars">Populaire</a>
-                <a href="./#rated ">Prochainement</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-<!-- upcoming movies section start -->
-    <section id="UpcomingMovies">
-        <div class="Container">
-            <h2>Films Récents</h2>
-            <div class="row Movies">
-                <div class="col-lg-4 col-md-6">
-                    <div class="row">
-                        <div class="col-6"><a href="page1.html"><img
-                                    src="images/yona.jpg"></a></div>
-                        <div class="col-6"><a href="page2.html"><img
-                                    src="images/yona.jpg"></a></div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="https://uqload.com/embed-ztx52920ijnk.html" class="movie-item">
+                    <img src="./images/wlh.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Le Dernier Duel
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>3.9</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2h32</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="row">
-                        <div class="col-6"><a href="page3.html"><img
-                                    src="img/doc.jpg"></a></div>
-                        <div class="col-6"><a href="page4.html"><img
-                                    src="img/suicide.jpg"></a></div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="https://uqload.com/embed-ckzhqfiekjt6.html" class="movie-item">
+                    <img src="./images/words.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Swordsman
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>4.8</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h40</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="row">
-                        <div class="col-6"><a href="page5.html"><img
-                                    src="img/mou.jpg"></a></div>
-                        <div class="col-6"><a href="page6.html"><img
-                                    src="img/para.jpg"></a></div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="https://uqload.com/embed-ap5tb7osgt2m.html" class="movie-item">
+                    <img src="./images/maman.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Maman J'ai Raté L'Avion (ça Recommence)
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>1.7</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h33</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- upcoming movies section end -->
-<!-- top rated movies section start -->
-    <section id="TopRatedMovies">
-        <div class="Container">
-            <h2>Films Populaires</h2>
-            <div class="row Movies">
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a href="page7.html"><img
-                                    src="img/tom.jpg"></a></div>
-                        <div class="col-6"><a href="page8.html"><img
-                                    src="img/slen.jpg"></a></div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="https://uqload.com/embed-1nq7ish8invu.html" class="movie-item">
+                    <img src="./images/game.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Escape Game 2
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>3.9</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h27</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a href="page9.html"><img
-                                    src="img/jok.jpg"></a></div>
-                        <div class="col-6"><a href="page10.html"><img
-                                    src="img/free.jpg"></a></div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="https://uqload.com/embed-pfbdfmc57iya.html" class="movie-item">
+                    <img src="./images/finch.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Finch
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>4.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h55</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a href="page11.html"><img
-                                    src="img/sonic.jpg"></a></div>
-                        <div class="col-6"><a href="page12.html"><img
-                                    src="img/brui.jpg"></a></div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="https://uqload.com/embed-tia12cvm05ws.html" class="movie-item">
+                    <img src="./images/dune.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Dune
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>4.1</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2h35</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a
-                                href="page13.html"><img
-                                    src="img/pri.jpg"></a></div>
-                        <div class="col-6"><a href="page14.html"><img
-                                    src="img/hom.jpg"></a></div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="https://uqload.com/embed-slp8ylf41f8x.html" class="movie-item">
+                    <img src="./images/colere.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Un Homme En Colère
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>4.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h58</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- top rated movies section end -->
-      <!-- latest movies section start -->
-    <section id="LatestMovies">
-        <div class="Container">
-            <h2></h2>
-            <div class="row Movies">
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a href="page15.html"><img
-                                    src="img/dune.jpg"></a></div>
-                        <div class="col-6"><a href="page16.html"><img
-                                    src="img/bac.jpg"></div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a href="page17.html"><img
-                                    src="img/fast.jpg"></a></div>
-                        <div class="col-6"><a href="page18.html"><img
-                                    src="img/blood.jpg"></a></div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a href="page19.html"><img
-                                    src="img/short.jpg"></a></div>
-                        <div class="col-6"><a href="page20.html"><img
-                                    src="img/am.jpg"></a></div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a href="page21.html"><img
-                                    src="img/space.jpg"></a></div>
-                        <div class="col-6"><a href="page22.html"><img
-                                    src="img/ca.jpg"></a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- latest movies section end -->
-
-
-    <!-- english movies section start -->
-    <section id="EnglishMovies">
-        <div class="Container">
-            <h2>Films d'Horreurs</h2>
-            <div class="row Movies">
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a href="page23.html"><img
-                                    src="img/sep.jpg"></a></div>
-                        <div class="col-6"><a href="page24.html"><img
-                                    src="img/bo.jpg"></a></div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a href="page25.html"><img
-                                    src="img/dame.jpg"></a></div>
-                        <div class="col-6"><a href="page26.html"><img
-                                    src="img/ta.jpg"></a></div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a href="page27.html"><img
-                                    src="img/mal.jpg"></a></div>
-                        <div class="col-6"><a href="page28.html"><img
-                                    src="img/candy.jpg"></a></div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a href="page29.html"><img
-                                    src="img/ana.jpg"></a></div>
-                        <div class="col-6"><a href="page30.html"><img
-                                    src="img/wer.jpg"></a></div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a href="page31.html"><img
-                                    src="img/inf.jpg"></a></div>
-                        <div class="col-6"><a href="page32.html"><img
-                                    src="img/sim.jpg"></a></div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a href="page33.html"><img
-                                    src="img/jack.jpg"></a></div>
-                        <div class="col-6"><a href="page34.html"><img
-                                    src="img/aft.jpg"></a></div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-
-                    </div>
-                </div>
+                </a>
+                <!-- END MOVIE ITEM -->
             </div>
         </div>
-    </section>
-    <!-- english movies section end -->
+    </div>
+    <!-- END LATEST MOVIES SECTION -->
 
-
-    <!-- hindi movies section start -->
-    <section id="HindiMovies">
-        <div class="Container">
-            <h2>Films d'Animations</h2>
-            <div class="row Movies">
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row">
-                        <div class="col-6"><a href="page35.html"><img
-                                    src="img/paw.jpg"></a></div>
-                        <div class="col-6"><a href="page36.html"><img
-                                    src="img/pil.jpg"></div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row">
-                        <div class="col-6"><a href="page37.html"><img
-                                    src="img/pierre.jpg"></a></div>
-                         <div class="col-6"><a href="page38.html"><img
-                                    src="img/lu.jpg"></div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a href="page39.html"><img
-                                    src="img/bay.jpg"></a></div>
-                        <div class="col-6"><a href="page40.html"><img
-                                    src="img/trou.jpg"></a></div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="row Movies">
-                        <div class="col-6"><a href="page41.html"><img
-                                    src="img/spri.jpg"></a></div>
-                        <div class="col-6"><a href="page42.html"><img
-                                    src="img/addam.jpg"></a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- hindi movies section end -->
-<footer>
-      <section id="footer">
+    <!-- LATEST SERIES SECTION -->
+    <div class="section">
         <div class="container">
-          <div class="row footer_logo">
-            <img src="./assets/logo/aniss.jpg" alt="img" />
-          </div>
-          <div class="row credit">
-            <div class="col-md-3 support">
-              <h6>Support</h6>
-              <a href="#">Privacy & Policy</a>
-              <a href="#">Term & Conditions</a>
-              <a href="#">Support System</a>
+            <div class="section-header">
+                Incoming series
             </div>
-            <div class="col-md-2 services">
-              <h6>Our Services</h6>
-              <a href="#">About Us</a>
-              <a href="#">Design Services</a>
-              <a href="#">API Services</a>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/epic.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Perdus Dans L'espace
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                
+                                
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>3 saisons</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/stranger.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Stranger Things
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                
+                                
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>3 saison</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/star.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Star Trek 
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>4 saison</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/cow.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                           Cow Boy
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1 saison</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/witcher.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            The Witcher
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>2 saison</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/casa.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            La Casa De Papel
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>5 saison</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="./images/umb.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Umbrella Academy
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>3 saison</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
             </div>
-            <div class="col-md-3 contact">
-              <h6>Contact Us</h6>
-              <a href="#"
-                ><img src="./assets/icons/instagram.svg" alt="instagram"
-              /></a>
-              <a href="#"
-                ><img src="./assets/icons/facebook.svg" alt="facebook"
-              /></a>
-              <a href="#"
-                ><img src="./assets/icons/twitter.svg" alt="twitter"
-              /></a>
-              <a href="#"><img src="./assets/icons/email.svg" alt="email" /></a>
-            </div>
-            <div class="col-md-4 download">
-              <h6>Download BoxFilm's App</h6>
-              <a href="#"
-                ><img src="./assets/icons/andoid.svg" alt="andoid"
-              /></a>
-              <a href="#"><img src="./assets/icons/apple.svg" alt="apple" /></a>
-            </div>
-          </div>
-          <p class="copyright">@Copyright 2021 AnissStream</p>
         </div>
-      </section>
+    </div>
+    <!-- END LATEST SERIES SECTION -->
+
+    <!-- LATEST CARTOONS SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                latest cartoons
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="https://uqload.com/embed-hrf3yiuo2fhx.html" class="movie-item">
+                    <img src="./images/ron.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Ron Débloque
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>4.6</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h46</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="https://uqload.com/embed-tus6p6c596pl.html" class="movie-item">
+                    <img src="./images/croods.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Croods 2
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h35</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="https://uqload.com/embed-j6ggwqxwewbt.html" class="movie-item">
+                    <img src="./images/baby.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Baby Boss 2
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h45</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="https://uqload.com/embed-xvuq5h4nfzar.html" class="movie-item">
+                    <img src="./images/ainbo.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                           Ainbo
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>3.6</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h25</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="https://uqload.com/embed-9gezamgyd0ty.html" class="movie-item">
+                    <img src="./images/paw.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Paw
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>4.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h28</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="https://uqload.com/embed-yx25v4ukzyc4.html" class="movie-item">
+                    <img src="./images/vivo.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Vivo
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>4.6</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h43</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="https://uqload.com/embed-4f4u65xac55w.html" class="movie-item">
+                    <img src="./images/raya.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                          Raya Et Le Dernier Dragon
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>4.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>1h54</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END LATEST CARTOONS SECTION -->
+
+    <!-- SPECIAL MOVIE SECTION -->
+    <div class="section">
+        <div class="hero-slide-item">
+            <img src="./images/transformer-banner.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="hero-slide-item-content">
+                <div class="item-content-wraper">
+                    <div class="item-content-title">
+                        Shang-Chi et la Légende des Dix Anneaux
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>4.6</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>2h12 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>16+</span>
+                        </div>
+                    </div>
+                    <div class="item-content-description">
+                        Shang-Chi, un maître des arts martiaux, doit affronter son passé et tout ce qu'il pensait avoir laissé derrière lorsqu'il se trouve entremêlé aux affaires de la mystérieuse organisation des Dix Anneaux.
+                    </div>
+                    <div class="item-action">
+                        <a href="https://uqload.com/embed-ffip3ci6gp6z.html" class="btn btn-hover">
+                            <i class="bx bxs-right-arrow"></i>
+                            <span>Watch now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END SPECIAL MOVIE SECTION -->
+
+    <!-- PRICING SECTION -->
+    <div class="section">
+        <div class="container">
+            <div class="pricing">
+                <div class="pricing-header">
+                    A<span class="main-color">n</span>iss Stream
+                </div>
+                <div class="pricing-list">
+                    <div class="row">
+                        <div class="col-4 col-md-12 col-sm-12">
+                            <div class="pricing-box">
+                                <div class="pricing-box-header">
+                                    <div class="pricing-name">
+                                        Basic
+                                    </div>
+                                    <div class="pricing-price">
+                                        Gratuit
+                                    </div>
+                                </div>
+                                <div class="pricing-box-content">
+                                    <p>Originals</p>
+                                    <p>Swich plans anytime</p>
+                                    <p><del>65+ top Live</del></p>
+                                    <p><del>TV Channels</del></p>
+                                </div>
+                                <div class="pricing-box-action">
+                                    <a href="#" class="btn btn-hover">
+                                        <span>Register now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-12 col-sm-12">
+                            <div class="pricing-box hightlight">
+                                <div class="pricing-box-header">
+                                    <div class="pricing-name">
+                                        Premium
+                                    </div>
+                                    <div class="pricing-price">
+                                        5€ <span>/month</span>
+                                    </div>
+                                </div>
+                                <div class="pricing-box-content">
+                                    <p>Originals</p>
+                                    <p>Swich plans anytime</p>
+                                    <p>65+ top Live</p>
+                                    <p><del>TV Channels</del></p>
+                                </div>
+                                <div class="pricing-box-action">
+                                    <a href="#" class="btn btn-hover">
+                                        <span>Register now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-12 col-sm-12">
+                            <div class="pricing-box">
+                                <div class="pricing-box-header">
+                                    <div class="pricing-name">
+                                        VIP
+                                    </div>
+                                    <div class="pricing-price">
+                                    10€ <span>/month</span>
+                                    </div>
+                                </div>
+                                <div class="pricing-box-content">
+                                    <p>Originals</p>
+                                    <p>Swich plans anytime</p>
+                                    <p>65+ top Live</p>
+                                    <p>TV Channels</p>
+                                </div>
+                                <div class="pricing-box-action">
+                                    <a href="#" class="btn btn-hover">
+                                        <span>Register now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END PRICING SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="content">
+                        <a href="#" class="logo">
+                            <i class='bx bx-movie-play bx-tada main-color'></i>A<span class="main-color">n</span>iss Stream
+                        </a>
+                        <p>
+                            Site de streaming totalement gratuit pour tout le monde 
+                            avec film et series et manga gratuit sans payer.
+                        </p>
+                        <div class="social-list">
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-facebook"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-twitter"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>AnissStream</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">My profile</a></li>
+                                    <li><a href="#">Pricing plans</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Browse</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">My profile</a></li>
+                                    <li><a href="#">Pricing plans</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Help</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">My profile</a></li>
+                                    <li><a href="#">Pricing plans</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Download app</b></p>
+                                <ul class="footer-menu">
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/google-play.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/app-store.png" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-      crossorigin="anonymous"
-    ></script>
-    <!-- gsap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
-    <!-- glide -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
-    <script src="./script.js"></script>
-  </body>
-<style>
-  /* Global Variabel */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
-:root {
-  /* size margin */
-  --top_navbar: 1.5rem;
+    <!-- END FOOTER SECTION -->
 
-  /* color */
-  --background_top_left: #14172c;
-  --background_bottom_right: #1d1039;
-  --font_color: #fafafa;
-  --search_color: #101223;
+    <!-- COPYRIGHT SECTION -->
+    <div class="copyright">
+         <a href="https://www.youtube.com/channel/UC59WpKONDXQBT3pkbejSzyA" target="_blank">
+           Clique Pour Voir Ma Chaine Youtube  </a>
+    </div>
+    <!-- END COPYRIGHT SECTION -->
 
-  /* fonts */
-  --regular: 400;
-  --semibold: 600;
-  --bold: 700;
-  --fonts_family: "Open Sans", sans-serif;
-  --fonts_default: 1.125rem;
-  --fonts-navbar: 1.125rem;
-  --fonts_hero: 2.25rem;
-  --fonts_genre_description: 1rem;
-  --fonts_14: 0.875rem;
-  --fonts_title: 1.5rem;
-  --fonts_head_footer: 1.25rem;
-  --fonts_copyright: 0.875rem;
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- APP SCRIPT -->
+    <script src="app.js"></script>
 
-  /* line height */
-  --heading: 3.064rem;
-  --description_genre: 1.362rem;
-  --title: 2.043rem;
-  --film: 1.532rem;
-}
+</body>
 
-* {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  font-family: var(--fonts_family);
-  color: var(--font_color);
-}
-body {
-  background: linear-gradient(
-    to bottom right,
-    var(--background_top_left),
-    var(--background_bottom_right)
-  );
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-/* navbar */
-.navbar {
-  background-color: var(--background_top_left);
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-}
-.navbrand {
-  padding-left: 0;
-}
-.navbar-nav {
-  margin-left: auto;
-}
-.navbar-nav > li {
-  margin-left: 2.438rem;
-}
-.nav-item a {
-  font-weight: var(--semibold);
-  color: var(--font_color);
-}
-.nav-link {
-  color: var(--font_color) !important;
-}
-.btn-outline-secondary {
-  border-color: var(--font_color);
-  padding: 7px;
-}
-.dropdown-item {
-  color: var(--search_color) !important;
-}
-/* menu hamburger */
-.menu-toggle {
-  display: none;
-  flex-direction: column;
-  height: 20px;
-  justify-content: space-between;
-  position: relative;
-  z-index: 1;
-}
-.menu-toggle span {
-  display: block;
-  width: 28px;
-  height: 3px;
-  background-color: #fafafa;
-  border-radius: 3px;
-  transition: all 0.5s;
-}
-.menu-toggle input {
-  position: fixed;
-  display: block;
-  width: 40px;
-  height: 28px;
-  right: 6px;
-  top: 13px;
-  opacity: 0;
-  cursor: pointer;
-  z-index: 3;
-}
-
-/* animasi hamburger */
-.menu-toggle span:nth-child(2) {
-  transform-origin: 0 0;
-}
-.menu-toggle span:nth-child(4) {
-  transform-origin: 0 100%;
-}
-.menu-toggle input:checked ~ span:nth-child(2) {
-  transform: rotate(45deg) translate(4px, -9px);
-  position: fixed;
-}
-.menu-toggle input:checked ~ span:nth-child(4) {
-  transform: rotate(-45deg) translate(-3px, 15px);
-  position: fixed;
-}
-.menu-toggle input:checked ~ span:nth-child(3) {
-  transform: scale(0);
-  opacity: 0;
-}
-
-/* banner */
-#banner {
-  padding-top: 7.5rem;
-}
-.slides .banner_img {
-  display: block;
-  object-fit: cover;
-}
-.slides .contents {
-  position: relative;
-  left: 24rem;
-  top: -23rem;
-}
-.contents h1 {
-  font-weight: var(--bold);
-  font-size: var(--fonts_hero);
-  max-width: 30rem;
-  line-height: var(--heading);
-}
-.contents span {
-  font-weight: var(--regular);
-}
-.contents .genre {
-  font-size: var(--fonts_14);
-}
-.contents p {
-  font-size: var(--fonts_genre_description);
-  line-height: var(--description_genre);
-  font-weight: var(--regular);
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  max-width: 43rem;
-}
-.contents .trailer_btn {
-  margin-top: 1rem;
-}
-.trailer_btn:hover {
-  opacity: 0.5;
-}
-
-/* modal */
-.modal[data-modal-color] {
-  color: var(--font_color);
-}
-.modal .modal-content {
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.31);
-  border-radius: 3px;
-  border: 0;
-}
-.modal[data-modal-color] .modal-title {
-  color: #fff;
-}
-.modal[data-modal-color="background"] .modal-content {
-  background: var(--background_top_left);
-}
-.modal-body iframe {
-  width: 100%;
-  height: 25rem;
-}
-
-#search,
-#trending,
-#popular,
-#rated,
-#footer {
-  margin-left: 1.5rem;
-}
-
-/* search */
-#search {
-  margin-top: -14rem;
-}
-.search {
-  padding: 0;
-}
-.search_input {
-  position: relative;
-}
-.search_icon {
-  margin-top: -1.8rem;
-  margin-left: 33.5rem;
-  position: absolute;
-}
-.link {
-  padding: 0;
-}
-.link_section {
-  margin-left: 3rem;
-  margin-top: 0.4rem;
-}
-.link_section a:hover {
-  font-weight: var(--bold);
-}
-.link_section a {
-  text-decoration: none;
-  margin-right: 4rem;
-  color: var(--font_color);
-  font-size: var(--fonts-navbar);
-}
-
-/* poster */
-.poster_container {
-  display: flex;
-  flex-direction: row;
-  overflow-y: hidden;
-  overflow-x: scroll;
-  padding: 1rem;
-  padding-left: 3.3rem;
-  padding-top: 1rem;
-  cursor: pointer;
-}
-.poster_container::-webkit-scrollbar {
-  display: none;
-}
-.poster_card {
-  transition: transform 550ms ease;
-  border-color: transparent;
-  padding: 0;
-  max-height: 350px;
-  min-width: 218px;
-  align-items: center;
-  background: transparent;
-}
-.card-body {
-  color: white;
-  font-size: var(--fonts_default);
-  font-weight: var(--bold);
-  line-height: var(--film);
-  max-width: 15rem;
-  text-align: center;
-}
-.poster_img {
-  border-radius: 5px;
-}
-.poster_img:hover {
-  transform: scale(1.08);
-}
-
-/* trending */
-#trending {
-  margin-top: 2.5rem;
-}
-.title_trending h1 {
-  font-size: var(--fonts_title);
-  line-height: var(--title);
-  font-weight: var(--bold);
-}
-
-/* popular */
-#popular {
-  margin-top: 1.5rem;
-}
-.title_popular h1 {
-  font-size: var(--fonts_title);
-  line-height: var(--title);
-  font-weight: var(--bold);
-}
-
-/* rated */
-#rated {
-  margin-top: 1.5rem;
-}
-.title_rated h1 {
-  font-size: var(--fonts_title);
-  line-height: var(--title);
-  font-weight: var(--bold);
-}
-
-/* footer */
-#footer {
-  margin-top: 6rem;
-}
-.support,
-.services,
-.contact,
-.download {
-  padding-left: 0;
-  margin-top: 2rem;
-}
-.credit h6 {
-  color: var(--font_color);
-  font-size: var(--fonts_head_footer);
-  font-weight: var(--semibold);
-}
-.support a,
-.services a {
-  text-decoration: none;
-  color: var(--font_color);
-  font-weight: var(--regular);
-  line-height: 1.532rem;
-  display: flex;
-}
-.contact a {
-  padding-right: 1.125rem;
-}
-.contact {
-  padding-left: 3rem;
-}
-.download a {
-  margin-left: -0.5rem;
-}
-.copyright {
-  margin-top: 5rem;
-  margin-bottom: 1rem;
-  text-align: center !important;
-  font-size: var(--fonts_14);
-}
-
-/* mobile version */
-@media screen and (max-width: 768px) {
-  .navbar {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .navbar .navbar-nav {
-    width: 70%;
-    position: fixed;
-    flex-direction: column;
-    height: 100vh;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    background: var(--background_top_left);
-    align-items: center;
-    padding-top: 100px;
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.5s;
-  }
-  .navbar .navbar-nav.slide {
-    opacity: 1;
-  }
-  .navbar .nav-item .nav-link {
-    padding-top: 50px;
-    margin-left: 0;
-    z-index: 1;
-  }
-  .menu-toggle {
-    display: flex;
-  }
-  .banner_img {
-    width: 100%;
-  }
-  .contents {
-    margin-top: 14rem;
-    left: 130px !important;
-  }
-  .contents h1 {
-    font-size: 13px;
-    max-width: 200px;
-    line-height: 20px;
-  }
-  .contents .genre {
-    font-size: 5px;
-    margin-top: 8px;
-    margin-bottom: 0;
-  }
-  .contents p {
-    font-size: 6px;
-    line-height: 10px;
-    margin-top: 8px;
-    margin-bottom: 10px;
-    max-width: 210px;
-  }
-  .contents .trailer_btn {
-    margin-top: -10px !important;
-    max-width: 65px;
-  }
-  #search {
-    margin-top: -20.5rem;
-  }
-  .search .search_input {
-    left: -8px !important;
-  }
-  .search_icon {
-    margin-top: -1.8rem;
-    margin-left: 18.8rem;
-    position: absolute;
-  }
-  .link_section {
-    margin-left: -6px;
-  }
-  .link_section a {
-    margin-right: 2rem;
-    font-size: 14px;
-  }
-  .title_trending h1,
-  .title_rated h1,
-  .title_popular h1 {
-    font-size: 18px;
-  }
-  #trending,
-  #rated,
-  #popular {
-    margin-left: 16px;
-    margin-top: 10px;
-    margin-bottom: 0;
-  }
-  .poster_card {
-    max-height: 300px;
-    min-width: 170px;
-  }
-  .poster_card img {
-    max-height: 230px;
-  }
-  .card-body {
-    color: white;
-    font-size: 14px;
-  }
-  .poster_container {
-    padding-left: 0.5rem;
-    padding-top: 2px;
-  }
-  .footer_logo img {
-    display: block;
-    margin: 10px auto;
-  }
-  .credit,
-  .contact,
-  .services {
-    text-align: center;
-  }
-  .credit a,
-  .services a {
-    display: block;
-    text-align: center;
-  }
-  .contact a {
-    display: inline;
-  }
-  .contact {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .copyright {
-    margin-top: 100px;
-  }
-}
-{
-    "liveServer.settings.port": 5501
-}
-body{
-
-}
- 
- #searchbox {
-    background: url(http://3.bp.blogspot.com/-g-zH25_DoxI/VD1BuatkgII/AAAAAAAAAgc/00hxspfvv3s/s1600/searchbar.png) no-repeat;
-    width: 208px;
-    height: 29px;
-}
-input:focus::-webkit-input-placeholder {
-    color: transparent;
-}
-input:focus:-moz-placeholder {
-    color: transparent;
-}
-input:focus::-moz-placeholder {
-    color: transparent;
-}
-#searchbox input {
-    outline: none;
-}
-#searchbox input[type= »text »] {
-    background: transparent;
-    margin: 3px 0px 0px 20px;
-    padding: 5px 0px 5px 0px;
-    border-width: 0px;
-    font-family: « Arial Narrow », Arial, sans-serif;
-    font-size: 12px;
-    color: #828282;
-    width: 70%;
-    display: inline-table;
-    vertical-align: top;
-}
-#button-submit {
-    background: url(http://4.bp.blogspot.com/-OcDQ6Z9ojlQ/VD1KnwJjFOI/AAAAAAAAAgs/cu_pKN6bpL8/s1600/magnifier.png) no-repeat;
-    border-width: 0px;
-    cursor: pointer;
-    margin-left: 10px;
-    margin-top: 4px;
-    width: 21px;
-    height: 22px;
-}
-#button-submit:hover {
-    background: url(http://2.bp.blogspot.com/-4-xFDFGKJrA/VD1Kn04f9TI/AAAAAAAAAgw/2ta84QY1x9A/s1600/magnifier-hover.png) no-repeat;
-}
-#button-submit:active {
-    background: url(http://2.bp.blogspot.com/-4-xFDFGKJrA/VD1Kn04f9TI/AAAAAAAAAgw/2ta84QY1x9A/s1600/magnifier-hover.png) no-repeat;
-    outline: none;
-}
-#button-submit::-moz-focus-inner {
-    border: 0;
-}
-
-
-
-
-.bich5{
-    position: absolute;
-    top: 15px
-    left: 15px;
-}
-
-
-
-    @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600&display=swap");
-body,
-html {
-  width: 100%;
-  height: 100%;
-}
-body {
-  font-family: "Source Serif Pro", serif;
-  background-color: #1a1a2e;
-}
-
-
-body {
-  background-color: #121111;
-  color: #fff;
-  margin: 0;
-}
-
-
-
-.menu-toggle {
-  position: fixed;
-  right: 15px;
-  top: 15px;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  color: #fff;
-  background: rgba(52, 58, 64, 0.5);
-  line-height: 50px;
-  z-index: 999;
-}
-
-.menu-toggle:focus,
-.menu-toggle:hover {
-  color: #fff;
-}
-
-.menu-toggle:hover {
-  background: #343a40;
-}
-
-/* ************************ */
-#sidebar-wrapper {
-  position: fixed;
-  z-index: 2;
-  right: 0;
-  width: 250px;
-  height: 100%;
-  transition: all 0.4s ease 0s;
-  transform: translateX(250px);
-  background: #1a1a2e;
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.sidebar-nav {
-  position: absolute;
-  top: 0;
-  width: 250px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.sidebar-nav li.sidebar-nav-item a {
-  display: block;
-  text-decoration: none;
-  color: #fff;
-  padding: 15px;
-}
-.sidebar-nav li a:hover {
-  text-decoration: none;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.2);
-}
-
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-  text-decoration: none;
-}
-
-.sidebar-nav > .sidebar-brand {
-  font-size: 1.2rem;
-  background: rgba(52, 58, 64, 0.1);
-  height: 80px;
-  line-height: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-}
-.sidebar-nav > .sidebar-brand a {
-  color: #fff;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
-  background: none;
-}
-
-#sidebar-wrapper.active {
-  right: 250px;
-  width: 250px;
-  transition: all 0.4s ease 0s;
-}
-
-/* ***************** */
-.masthead {
-  min-height: 30rem;
-  position: relative;
-  display: table;
-  width: 100%;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0.1) 0%,
-      rgba(255, 255, 255, 0.1) 100%
-    ),
-    url("img/big2004.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: inset 120px 100px 250px #000, inset -120px -100px 250px #000000;
-}
-.masthead h1 {
-  text-transform: uppercase;
-  font-size: 4rem;
-  margin: 0;
-  padding: 0;
-  color: #fff;
-}
-
-.masthead .mb-5 em {
-  color: #fff;
-  text-transform: uppercase;
-}
-@media (min-width: 992px) {
-  .masthead {
-    height: 100vh;
-  }
-  .masthead h1 {
-    font-size: 5.5rem;
-  }
-}
-
-.btn-xl {
-  padding: 1.25rem 2.5rem;
-  text-transform: uppercase;
-  background-color: #d35d6e;
-  border: none;
-  color: #fff;
-}
-
-.btn-xl:hover {
-  background-color: #fd3a69;
-  color: #000;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-}
-
-/* ******************* */
-.Container {
-  margin: 2% 2% 0 3%;
-}
-.Movies img {
-  margin-right: 1%;
-  margin-bottom: 10%;
-  width: 100%;
-  border-radius: 10px;
-  cursor: pointer;
-  box-shadow: -4px 4px 5px 0 #000;
-  transition: 0.8s;
-}
-
-.Movies img:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-}
-
-.Container h2 {
-  margin-bottom: 2%;
-  color: #f3e6e3;
-}
-
-/* *********** */
-#footer {
-  background-color: #020314;
-  padding: 2% 15%;
-  color: #fff;
-  text-align: center;
-}
-
-.social-icon {
-  margin: 20px 10px;
-  cursor: pointer;
-}
-
-.social-icon:hover {
-  color: cadetblue;
-}
-
-.footername {
-  color: coral;
-}
-.footername:hover {
-  text-decoration: none;
-  color: crimson;
-}
-
-/* ************ */
-.scroll-to-top {
-  position: fixed;
-  right: 15px;
-  bottom: 15px;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  color: #fff;
-  background: rgba(52, 58, 64, 0.5);
-  line-height: 45px;
-  display: none;
-}
-
-.scroll-to-top:focus,
-.scroll-to-top:hover {
-  color: whitesmoke;
-}
-.scroll-to-top:hover {
-  background: #343a40;
-}
-.scroll-to-top i {
-  font-weight: 800;
-}
-</style>
 </html>
